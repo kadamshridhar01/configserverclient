@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-
+@RefreshScope
 public class ReadPropertyController {
 	
 	@Value("${spring.datasource.url: url not found}")
