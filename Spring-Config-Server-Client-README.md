@@ -20,6 +20,7 @@ post -->http://localhost:${server.port}/${spring.application.name}/actuator/refr
 Above  request reload the property
 
 #JVM argument to read the property files from which Enviorment
+
 -Dspring.profiles.active=prod
 
 If above property default value is "default".To know property files naming convension ,check the SpringConfig-Dev project
