@@ -4,9 +4,13 @@ How to read the property value from Spring Config Server
 #BLock Diagram 
 
 Config Client--> JVM argument set Env value  ---->Config server ---------->Git
+
 ^
+
 |
+
 |
+
 post request 
 
 Spring load the all property 1 time only .After check in property file git .it will not pick up the new changes.To pick up the new changes we need make one more post request.
